@@ -10,7 +10,7 @@ public class CalculadoraTrig { //Java trabaja dentro de clases absolutamente tod
         double tangenteHiperbolico = Math.tanh(angulo);
 
         System.out.println("Resultados del angulo ="+angulo+":"); //+ sirve para concatenar en este caso
-        System.out.println("Seno =" + senoHiperbolico);
+        System.out.println("Seno =" + senoHiperbolico); //println ya que cuando solo puse print simple todo salio pegado y no es visualmente agradable
         System.out.println("Coseno =" + cosenoHiperbolico);
         System.out.println("Tangente = " + tangenteHiperbolico);
         lector.close(); //cierro el lector 

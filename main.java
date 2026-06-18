@@ -23,7 +23,7 @@ public class main{
                     FuncionTrigonometrica_sen_cos_tan.ejecutar(lector);
                     break;
                 case 3:
-                    ejecutarOperacionesTrigonométricasInversas(lector);
+                    OperacionesTrigonometricasInversas.ejecutar(lector);
                     break;
                 case 0:
                     System.out.println("Saliendo");

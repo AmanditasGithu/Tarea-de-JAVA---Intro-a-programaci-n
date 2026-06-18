@@ -2,14 +2,14 @@ import java.util.Scanner; //se importa la libreria para poder usar la terminal
 
 
 public class OperacionesTrigonometricasInversas {
-    public static void main(Scanner scanner) {
+    public static void ejecutar(Scanner scanner) {
         
 
         System.out.println("===== Angulos Inversos =====");
-        System.out.println("1. Arcoseno(sen⁻¹)");
-        System.out.println("2. Arcocoseno (cos⁻¹)");
-        System.out.println("3. Arcotangente(tan⁻¹)");
-         System.out.print("Selecciona una opción (1, 2 o 3): ");
+        System.out.println("1. Arcoseno");
+        System.out.println("2. Arcocoseno");
+        System.out.println("3. Arcotangente");
+         System.out.print("Selecciona una opción: ");
         int opcion = scanner.nextInt();
         //compara la opcion seleccionanda y retorna opcion invalida si no está dentro de las opciones
         if (opcion< 1 || opcion > 3){
@@ -62,8 +62,8 @@ public class OperacionesTrigonometricasInversas {
             //Aqui se usa Math para hacer la conversion de radianes a grados
             double anguloGrados = Math.toDegrees(anguloRadianes);
             System.out.println("\n --- Resultados ---");
-            System.out.println("Ángulo en radianes: " + anguloRadianes + " rad");
-            System.out.println("Ángulo en grados: " + anguloGrados + " °");
+            System.out.println("Angulo en radianes: " + anguloRadianes + " rad");
+            System.out.println("Angulo en grados: " + anguloGrados + " °");
 
         }
 

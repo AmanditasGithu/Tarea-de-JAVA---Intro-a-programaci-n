@@ -1,8 +1,8 @@
 import java.util.Scanner;   //Para pedir datos en la terminal, necesitamos importar una biblioteca o no podremos realizar dicha accion
 
 public class FuncionTrigonometrica_sen_cos_tan {    //Como punto importante, el documento debe de llevar el nombre de la clase principal
-    public static void main (String[]args){ 
-        Scanner lector=new Scanner (System.in); //Se le da un nuevo nombre a la biblioteca Scanner que sera "lector"
+    public static void ejecutar (Scanner lector){ 
+         //
         System.out.println("Calculadora Trigonometrica para un ángulo a: sena, cosa, tana");    //Imprime el mensaje en terminal 
         System.out.println("Introduzca la operacion a realizar:");  //Imprime el mensaje en terminal
         System.out.println("1. Seno");  //Imprime el mensaje en terminal
@@ -30,7 +30,7 @@ public class FuncionTrigonometrica_sen_cos_tan {    //Como punto importante, el 
             double radianes = Math.toRadians(angulo); //Convierte el angulo a radianes con la biblioteca Math
             System.out.println("Tangente = "+ Math.tan(radianes)); //Y los radianes los convierte a una aproximacion de tangente con la biblioteca Math
         } 
-        lector.close(); //Se cierra la biblioteca para que no tenga conflicto con otras clases
+        
     }
 }    
  

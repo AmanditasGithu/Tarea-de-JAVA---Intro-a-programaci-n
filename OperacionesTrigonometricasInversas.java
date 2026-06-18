@@ -1,9 +1,9 @@
 import java.util.Scanner; //se importa la libreria para poder usar la terminal
 
 
-public class OperacionesTrigonométricas_arcsin_arccos_arctan {
-    public static void main(String[]args) {
-        Scanner scanner = new Scanner(System.in);
+public class OperacionesTrigonometricasInversas {
+    public static void main(Scanner scanner) {
+        
 
         System.out.println("===== Angulos Inversos =====");
         System.out.println("1. Arcoseno(sen⁻¹)");
@@ -14,7 +14,7 @@ public class OperacionesTrigonométricas_arcsin_arccos_arctan {
         //compara la opcion seleccionanda y retorna opcion invalida si no está dentro de las opciones
         if (opcion< 1 || opcion > 3){
             System.out.println("Opcion Invalida");
-            scanner.close();
+            
             return;
         }   
         double valor = 0.0;
@@ -67,7 +67,7 @@ public class OperacionesTrigonométricas_arcsin_arccos_arctan {
 
         }
 
-        scanner.close(); 
+         
 
     }
     
